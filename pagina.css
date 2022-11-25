@@ -1,6 +1,14 @@
 *{
     font-size: 20px;
     font-family: cursive;
+    transition-duration: 2s;
+    transition-property: margin-right, color;
+    transition-property: background-color;
+    transition-property: color;
+
+}
+body{
+    background-color:#e5ebe53d;
 }
 p{
     font-family: Arial, Helvetica, sans-serif;
@@ -47,9 +55,13 @@ li:hover{
     font-family: cursive;
     font-size: 30px;
     color: chocolate;
+    transition-duration: 2s;
+    transition-property: color;
 }
 .subti:hover{
     color: grey;
+    transition-duration: 2s;
+    transition-property: color;
 
 }
 .subt{
@@ -62,6 +74,8 @@ li:hover{
 }
 .subt:hover{
     color:springgreen;
+    transition-duration: 2s;
+    transition-property: color;
 
 }
 .python{
@@ -90,8 +104,9 @@ li:hover{
 
 }
 .python > h2:hover{
-    color:white;
-    background-color: black;
+    color:rgb(241, 115, 31);
+    transition: 2s;
+    transition-property: color;
 }
 .javascript{
     display: inline-block;
@@ -118,8 +133,9 @@ li:hover{
 
 }
 .javascript > h2:hover{
-    color:white;
-    background-color: black;
+    color:rgb(241, 115, 31);
+    transition: 2s;
+    transition-property: color;
 }
 .imagenpy{
     height: 100px;
@@ -127,6 +143,7 @@ li:hover{
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 0;
+    filter:drop-shadow(8px 6px 6px rgb(0, 0, 0));
 
 }
 .imagenjs{
@@ -135,6 +152,7 @@ li:hover{
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 0;
+    filter:drop-shadow(8px 6px 6px rgb(0, 0, 0));
 
 }
 .c{
@@ -163,8 +181,9 @@ li:hover{
 
 }
 .c > h2:hover{
-    color:white;
-    background-color: black;
+    color:rgb(241, 115, 31);
+    transition: 2s;
+    transition-property: color;
 }
 .imagenc{
     height: 100px;
@@ -172,6 +191,7 @@ li:hover{
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 0;
+    filter:drop-shadow(8px 6px 6px rgb(0, 0, 0));
 }
 .cc{
     display: inline-block;
@@ -198,8 +218,9 @@ li:hover{
 
 }
 .cc > h2:hover{
-    color:white;
-    background-color: black;
+    color:rgb(241, 115, 31);
+    transition: 2s;
+    transition-property: color;
 }
 .imagencc{
     height: 100px;
@@ -207,6 +228,7 @@ li:hover{
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 0;
+    filter:drop-shadow(8px 6px 6px rgb(0, 0, 0));
 }
 .html{
     display: inline-block;
@@ -233,8 +255,9 @@ li:hover{
 
 }
 .html > h2:hover{
-    color:white;
-    background-color: black;
+    color:rgb(241, 115, 31);
+    transition: 2s;
+    transition-property: color;
 }
 .imagenhtml{
     height: 100px;
@@ -242,6 +265,7 @@ li:hover{
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 0;
+    filter:drop-shadow(8px 6px 6px rgb(0, 0, 0));
 
 }
 .css{
@@ -270,8 +294,9 @@ li:hover{
 
 }
 .css > h2:hover{
-    color:white;
-    background-color: black;
+    color:rgb(241, 115, 31);
+    transition: 2s;
+    transition-property: color;
 }
 .imagencss{
     height: 100px;
@@ -279,6 +304,7 @@ li:hover{
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 0;
+    filter:drop-shadow(8px 6px 6px black);
 
 }
 .framework{
@@ -314,11 +340,15 @@ li:hover{
 .react > p:hover{
     color:black;
     background-color: white;
+    transition-duration: 2s;
+    transition-property: background-color;
+
 
 }
 .react > h2:hover{
-    color:white;
-    background-color: rgb(4, 9, 248);
+    color:rgb(241, 115, 31);
+    transition-duration: 2s;
+    transition-property: color;
 }
 .imagenreact{
     margin-left:0px;
@@ -346,6 +376,8 @@ li:hover{
     padding: 10px;
     color: rgb(0, 0, 0);
     background-color: rgb(0, 255, 76);
+    transition-duration: 2s;
+    transition-property: background-color;
 }
 .angular > p:hover{
     color:black;
@@ -353,8 +385,9 @@ li:hover{
 
 }
 .angular > h2:hover{
-    color:white;
-    background-color: rgb(4, 9, 248);
+    color:rgb(241, 115, 31);
+    transition-duration: 2s;
+    transition-property: color;
 }
 #sobremi{
     margin-bottom: 10px;
@@ -369,10 +402,13 @@ li:hover{
 }
 .sobre{
     text-align: center;
-    border: 2px dashed black;
+    border: 5px double black;
     padding: 20px;
-    height: 100px max-content;
-    height: 500px min-content;
+    height: 0rem max-content;
+    width: 0rem min-content;
+    transition-duration: 2s;
+    transition-property: background-color;
+
 }
 .sobre:hover{
     background-color: rgb(7, 3, 245);
@@ -389,6 +425,8 @@ li:hover{
 }
 #curriculum1:hover{
     color:springgreen;
+    transition: 2s;
+    transition-property: color;
 }
 .padre{
     display: block;
@@ -397,10 +435,14 @@ li:hover{
 }
 .fotocurri{
 
-    border: 2px solid blue;
+    border: 3px inset blue;
+    transition: 2s;
+    transition-property: border;
 }
 .fotocurri:hover{
     border-color: red ;
+    transition: 2s;
+    transition-property: border;
 }
 .curriculumdes{
     color: black;
@@ -411,10 +453,13 @@ li:hover{
     background-color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 9%;
+
 }
 .curriculumdes > a:hover{
     background-color: darkblue;
     color: white;
+    transition-duration: 2s;
+    transition-property: background-color;
 }
 #contacto1{
     margin-bottom: 50px;
