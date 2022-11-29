@@ -1,0 +1,482 @@
+*{
+    font-size: 20px;
+    font-family: cursive;
+    transition-duration: 2s;
+    transition-property: margin-right, color;
+    transition-property: background-color;
+    transition-property: color;
+
+}
+body{
+    background-color:#e5ebe53d;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+b{
+    font-size: 20px;
+}
+h1{
+    text-align: center;
+    font-size: 30px !important;
+    height: 100px;
+    padding: 27px;
+    color: white;
+    background-color: black;
+    
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+a:hover{
+    color: blue;
+
+}
+nav{
+    text-align: center !important;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+li{
+    display: inline-flex;
+    width: 20% auto;
+    margin: 1px;
+    padding: 10px;
+    color: rgb(9, 240, 201);
+    background-color: rgb(7, 118, 245);
+    
+}
+li:hover{
+    background-color: black;
+}
+.subti{
+    margin-bottom: 50px;
+    font-family: cursive;
+    font-size: 30px;
+    color: chocolate;
+    transition-duration: 2s;
+    transition-property: color;
+}
+.subti:hover{
+    color: grey;
+    transition-duration: 2s;
+    transition-property: color;
+
+}
+.subt{
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: cursive;
+    font-size: 30px;
+    color: black;
+
+}
+.subt:hover{
+    color:springgreen;
+    transition-duration: 2s;
+    transition-property: color;
+
+}
+.python{
+    display: inline-block;
+    margin-bottom: 10px;
+    height: 500px max-content ;
+    width: 300px ;
+    border: 2px solid rgb(2, 103, 255);
+    margin-left:10% ;
+}
+.python > h2{
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.python > p{
+    margin-top: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: rgb(252, 41, 4);
+    transition-duration: 2s;
+    transition-property: background-color;
+}
+.python > p:hover{
+    color:black;
+    background-color: white;
+
+}
+.python > h2:hover{
+    color:rgb(241, 115, 31);
+}
+.javascript{
+    display: inline-block;
+    margin-bottom: 10px;
+    height: 500px max-content;
+    width: 300px ;
+    border: 2px solid rgb(2, 103, 255);
+    margin-left:10% ;
+}
+.javascript > h2{
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.javascript > p{
+    margin-top: 0;
+    padding: 10px;
+    color: white;
+    background-color: rgb(252, 41, 4);
+    transition-duration: 2s;
+    transition-property: background-color;
+}
+.javascript > p:hover{
+    color:black;
+    background-color: white;
+
+}
+.javascript > h2:hover{
+    color:rgb(241, 115, 31);
+}
+.imagenpy{
+    height: 100px;
+    margin: 30%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0;
+    filter:drop-shadow(8px 6px 6px rgb(0, 0, 0));
+
+}
+.imagenjs{
+    height: 100px;
+    margin-left:55px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0;
+    filter:drop-shadow(8px 6px 6px rgb(0, 0, 0));
+
+}
+.c{
+    display: inline-block;
+    margin-bottom: 10px;
+    height: 500px max-content ;
+    width: 300px ;
+    border: 2px solid rgb(2, 103, 255);
+    margin-left:10% ;
+
+}
+.c > h2{
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.c > p{
+    margin-top: 0;
+    padding: 10px;
+    color: white;
+    background-color: rgb(252, 41, 4);
+    transition-duration: 2s;
+    transition-property: background-color;
+    
+}
+.c > p:hover{
+    color:black;
+    background-color: white;
+
+}
+.c > h2:hover{
+    color:rgb(241, 115, 31);
+
+}
+.imagenc{
+    height: 100px;
+    margin-left:100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0;
+    filter:drop-shadow(8px 6px 6px rgb(0, 0, 0));
+}
+.cc{
+    display: inline-block;
+    margin-bottom: 10px;
+    height: 500px max-content ;
+    width: 300px ;
+    border: 2px solid rgb(2, 103, 255);
+    margin-left:10% ;
+}
+.cc > h2{
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.cc > p{
+    margin-top: 0;
+    padding: 10px;
+    color: white;
+    background-color: rgb(252, 41, 4);
+    transition-duration: 2s;
+    transition-property: background-color;
+}
+.cc > p:hover{
+    color:black;
+    background-color: white;
+
+}
+.cc > h2:hover{
+    color:rgb(241, 115, 31);
+}
+.imagencc{
+    height: 100px;
+    margin-left:100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0;
+    filter:drop-shadow(8px 6px 6px rgb(0, 0, 0));
+}
+.html{
+    display: inline-block;
+    margin-bottom: 10px;
+    height: 500px max-content ;
+    width: 300px ;
+    border: 2px solid rgb(2, 103, 255);
+    margin-left:10% ;
+}
+.html > h2{
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.html > p{
+    margin-top: 0;
+    padding: 10px;
+    color: white;
+    background-color: rgb(252, 41, 4);
+    transition-duration: 2s;
+    transition-property: background-color;
+}
+.html > p:hover{
+    color:black;
+    background-color: white;
+
+}
+.html > h2:hover{
+    color:rgb(241, 115, 31);
+}
+.imagenhtml{
+    height: 100px;
+    margin-left:100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0;
+    filter:drop-shadow(8px 6px 6px rgb(0, 0, 0));
+
+}
+.css{
+    display: inline-block;
+    margin-bottom: 10px;
+    height: 500px max-content ;
+    width: 300px ;
+    border: 2px solid rgb(2, 103, 255);
+    margin-left:10% ;
+
+}
+.css > h2{
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.css > p{
+    margin-top: 0;
+    padding: 10px;
+    color: white;
+    background-color: rgb(252, 41, 4);
+    transition-duration: 2s;
+    transition-property: background-color;
+}
+.css > p:hover{
+    color:black;
+    background-color: white;
+
+}
+.css > h2:hover{
+    color:rgb(241, 115, 31);
+}
+.imagencss{
+    height: 100px;
+    margin-left:100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0;
+    filter:drop-shadow(8px 6px 6px black);
+
+}
+.framework{
+    margin-bottom: 70px;
+    margin-top: 50px;
+    text-align: center;
+    font-family: cursive;
+    font-size: 30px;
+}
+.framework:hover{
+    color:springgreen;
+}
+.react{
+    display: inline-block;
+    margin-bottom: 10px;
+    height: 500px max-content ;
+    width: 300px ;
+    border: 2px solid rgb(255, 153, 0);
+    margin-left: 10% ;
+
+}
+.react > h2{
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.react > p{
+    margin-top: 0;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 255, 76);
+    transition-duration: 3s;
+    transition-property: background-color;
+}
+.react > p:hover{
+    color:black;
+    background-color: white;
+
+
+}
+.react > h2:hover{
+    color:rgb(241, 115, 31);
+}
+.imagenreact{
+    margin-left:0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 0;
+
+}
+.angular{
+    display: inline-block;
+    margin-bottom: 10px;
+    height: 500px max-content ;
+    width: 300px ;
+    border: 2px solid rgb(255, 137, 2);
+    margin-left:10% ;
+
+}
+.angular > h2{
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.angular > p{
+    margin-top: 0;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 255, 76);
+    transition-duration: 2s;
+    transition-property: background-color;
+}
+.angular > p:hover{
+    color:black;
+    background-color: white;
+
+}
+.angular > h2:hover{
+    color:rgb(241, 115, 31);
+}
+#sobremi{
+    margin-bottom: 10px;
+    margin-top: 70px;
+    text-align: center;
+    font-family: cursive;
+    font-size: 30px;
+
+}
+#sobremi:hover{
+    color:springgreen;
+}
+.sobre{
+    text-align: center;
+    border: 5px double black;
+    padding: 20px;
+    height: 0rem max-content;
+    width: 0rem min-content;
+    transition-duration: 2s;
+    transition-property: background-color;
+
+}
+.sobre:hover{
+    background-color: rgb(7, 3, 245);
+    color: white;
+}
+#curriculum1{
+    margin-bottom: 20px;
+    margin-top: 70px;
+    text-align: center;
+    font-family: cursive;
+    font-size: 30px;
+
+
+}
+#curriculum1:hover{
+    color:springgreen;
+    transition: 2s;
+    transition-property: color;
+}
+.padre{
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.fotocurri{
+
+    border: 3px inset blue;
+    transition: 2s;
+    transition-property: border;
+}
+.fotocurri:hover{
+    border-color: red ;
+    transition: 2s;
+    transition-property: border;
+}
+.curriculumdes{
+    color: black;
+    text-align: center;
+}
+.curriculumdes > a{
+    color:rgb(7, 248, 27);
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 9%;
+
+}
+.curriculumdes > a:hover{
+    background-color: darkblue;
+    color: white;
+    transition-duration: 2s;
+    transition-property: background-color;
+}
+#contacto1{
+    margin-bottom: 50px;
+    margin-top: 70px;
+    text-align: center;
+    font-family: cursive;
+    font-size: 30px;
+
+}
+#contacto1:hover{
+    color:springgreen;
+}
+.contacto > li{
+    margin: 50px;
+    margin-top: 5px;
+    background-color: rgb(255, 129, 11);
+    color: rgb(0, 0, 0);
+    
+}
+.contacto > li >a{
+    color: rgb(234, 255, 47);
+}
