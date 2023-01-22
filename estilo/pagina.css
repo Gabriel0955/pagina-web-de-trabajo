@@ -429,7 +429,23 @@ li:hover{
     transition: 2s;
     transition-property: border;
 }
+.curriculumdes{
+    color: black;
+    text-align: center;
+}
+.curriculumdes > a{
+    color:rgb(7, 248, 27);
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 9%;
 
+}
+.curriculumdes > a:hover{
+    background-color: darkblue;
+    color: white;
+    transition-duration: 2s;
+    transition-property: background-color;
+}
 #contacto1{
     margin-bottom: 50px;
     margin-top: 70px;
@@ -469,24 +485,4 @@ li:hover{
     background-color: rgb(7, 3, 245);
     color: white;
     transition: -2s;
-}
-.curriculumdes{
-    text-align: center;
-}
-.but{
-    border-radius: 1rem ;
-    width: 220px;
-    height: 40px;
-    cursor: pointer;
-    color: red;
-    border-color: blue;
-    background-color: black;
-    text-shadow: 1px 1px 1px rgb(85, 236, 15);
-    
-}
-.but:hover{
-    color: rgb(0, 0, 0);
-    background-color: white;
-    border-color: orangered;
-
 }
