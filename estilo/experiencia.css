@@ -21,12 +21,15 @@
     padding: 10px;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
+    font-family: monospace;
 
     
 }
 .esferos > h3{
     background-color: chartreuse;
     padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+  
 }
 .esferos > p{
     margin-left: 0px;
