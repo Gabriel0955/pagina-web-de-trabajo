@@ -1,0 +1,53 @@
+.esferos{
+    display: block;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: black;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    margin-bottom: 30px;
+
+
+
+}
+.esferos > h2{
+    color: chartreuse;
+    text-shadow: 1px 1px 3px black;
+    font-size: 25px;
+    background-color: black;
+    padding: 10px;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+
+    
+}
+.esferos > h3{
+    background-color: chartreuse;
+    padding: 10px;
+}
+.esferos > p{
+    margin-left: 0px;
+    margin-right: 0px;
+    font-style: oblique;
+    background-color: rgb(255, 166, 0);
+    padding: 10px;
+
+}
+.esferos > button > a{
+    color: rgb(255, 242, 242) !important;
+    font-size: 25px;
+}
+.esferos > button > a:hover{
+    color: rgb(255, 0, 0) !important;
+}
+button{
+    border-radius: 1rem;
+    background-color: rgb(0, 0, 0);
+    height: 35px;
+    width: 150px;
+    border-color: black;
+
+}

@@ -10,6 +10,10 @@
 body{
     background-color:#e5ebe53d;
 }
+.cont{
+    display: block;
+    text-align: center;
+}
 p{
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -84,7 +88,6 @@ li:hover{
     height: 500px max-content ;
     width: 300px ;
     border: 2px solid rgb(2, 103, 255);
-    margin-left:10% ;
 }
 .python > h2{
     text-align: center;
@@ -114,7 +117,6 @@ li:hover{
     height: 500px max-content;
     width: 300px ;
     border: 2px solid rgb(2, 103, 255);
-    margin-left:10% ;
 }
 .javascript > h2{
     text-align: center;
@@ -148,10 +150,8 @@ li:hover{
 }
 .imagenjs{
     height: 100px;
-    margin-left:55px;
     margin-top: 10px;
     margin-bottom: 10px;
-    padding: 0;
     filter:drop-shadow(8px 6px 6px rgb(0, 0, 0));
 
 }
@@ -234,11 +234,9 @@ li:hover{
 }
 .html{
     display: inline-block;
-    margin-bottom: 10px;
     height: 500px max-content ;
     width: 300px ;
     border: 2px solid rgb(2, 103, 255);
-    margin-left:10% ;
 }
 .html > h2{
     text-align: center;
@@ -272,11 +270,9 @@ li:hover{
 }
 .css{
     display: inline-block;
-    margin-bottom: 10px;
-    height: 500px max-content ;
     width: 300px ;
+    height: 500px max-content;
     border: 2px solid rgb(2, 103, 255);
-    margin-left:10% ;
 
 }
 .css > h2{
@@ -325,7 +321,6 @@ li:hover{
     height: 500px max-content ;
     width: 300px ;
     border: 2px solid rgb(255, 153, 0);
-    margin-left: 10% ;
 
 }
 .react > h2{
@@ -421,13 +416,15 @@ li:hover{
 .fotocurri{
     width: 500px;
     border: 3px inset blue;
-    transition: 2s;
     transition-property: border;
+    transition: 5s;
 }
 .fotocurri:hover{
     border-color: red ;
-    transition: 2s;
+
     transition-property: border;
+    width: 100%;
+    transition: 5s;
 }
 .curriculumdes{
     color: black;
@@ -457,23 +454,26 @@ li:hover{
 #contacto1:hover{
     color:springgreen;
 }
+
 .contacto > li{
-    margin: 50px;
+    margin: 5px;
     margin-top: 5px;
     background-color: rgb(255, 129, 11);
-    color: rgb(0, 0, 0);
+    color: rgb(21, 255, 0);
+    text-shadow: 2px 2px 2px black;
     
 }
 .contacto > li >a{
-    color: rgb(234, 255, 47);
+    color: rgb(235, 235, 235);
+    text-shadow: 2px 2px 2px black;
 }
 .conte{
     display: block;
     text-align: center;
     margin: auto;
     width: 350px ;
-    height: 400px;
-    padding-top: 20px;
+    height: 430px ;
+    padding-top: 15px;
     font-size: 27px;
     font-family: monospace;
     border: 5px double black;

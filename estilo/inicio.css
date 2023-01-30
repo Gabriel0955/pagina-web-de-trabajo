@@ -1,0 +1,26 @@
+.conte{
+    display: block;
+    margin-top: 15%;
+    text-align: center;
+    
+    
+}
+.div1{
+    display: inline-block;
+
+
+}
+.div2{
+    display: inline-flex;
+}
+.titulo{
+    display: inline-block;
+    text-align: center;
+    margin:10px;
+}
+img{
+    display: inline-block;
+    width: 200px;
+   
+}
+
