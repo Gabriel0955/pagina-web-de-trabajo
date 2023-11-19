@@ -79,3 +79,16 @@ button{
     margin-left: 750px;
     display: flex;
 }
+@media screen and (max-width: 600px) {
+    .av{
+    
+        width: 40px;
+        position: absolute;
+        margin-top: 70px;
+        margin-left: 235px;
+        display: flex;
+    }
+
+  }
+  
+  
